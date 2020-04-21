@@ -1,0 +1,31 @@
+{
+  "name": "gsc-api",
+  "version": "1.0.0",
+  "description": "A node.js wrapper for the my.gsc.cn api to fetch data or upload packages",
+  "main": "\t",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellchet58/gsc-api.git"
+  },
+  "keywords": [
+    "gsc",
+    "axios"
+  ],
+  "author": "bellchet58",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bellchet58/gsc-api/issues"
+  },
+  "homepage": "https://github.com/bellchet58/gsc-api#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lodash": "^4.17.15",
+    "qs": "^6.9.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
