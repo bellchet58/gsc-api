@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var init = require('../lib/init')
 var program = require('commander')
 var chalk = require('chalk')
