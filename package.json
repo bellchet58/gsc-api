@@ -2,7 +2,8 @@
   "name": "gsc-api",
   "version": "1.0.0",
   "description": "A node.js wrapper for the my.gsc.cn api to fetch data or upload packages",
-  "main": "\t",
+  "main": "lib/init.js",
+  "bin": "bin/gsc-api.js",
   "scripts": {
     "test": "jest",
     "debugger": "node --inspect-brk ./node_modules/jest/bin/jest --runInBand --no-cache --no-watchman"
@@ -23,6 +24,8 @@
   "homepage": "https://github.com/bellchet58/gsc-api#readme",
   "dependencies": {
     "axios": "^0.19.2",
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
     "form-data": "^3.0.0",
     "lodash": "^4.17.15",
     "qs": "^6.9.3",
