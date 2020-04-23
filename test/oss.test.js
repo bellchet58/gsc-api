@@ -13,5 +13,5 @@ describe("oss related api", () => {
   test("upload", async () => {
     const result = await upload()
     expect(result).toEqual('https://www.gscapp.cn/app/85lT')
-  }, 20000)
+  }, 50000)
 });
