@@ -18,8 +18,7 @@ program.command('upload <relativePath>')
       throw new Error('token is required!')
     }
     var gscApi = init({ token: cmd.token })
-    var basePath = process.cwd()
-    var filePath = path.resolve(basePath, `./${process.env.UPLOAD_DIR || relativePath}`)
+    var filePath = relativePath
     console.log(chalk.bgGray('ready for upload...'))
     gscApi.upload(filePath).then((shortLink) => {
       console.log(chalk.green('upload success! open: '), chalk.yellowBright(shortLink), chalk.green('to download!'));

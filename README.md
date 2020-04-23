@@ -23,7 +23,7 @@ const sign = await oss.getSign({ bucket, dir }); //获取Aliyun OSS签名
 ```
 2. 命令行方式
 ```bash
-gsc-api upload {要上传的文件在项目中的路径} --token {公孙测上登陆后的token}
+gsc-api upload {要上传的文件在项目中的路径/绝对路径} --token {公孙测上登陆后的token}
 ```
 
 ## 说明
