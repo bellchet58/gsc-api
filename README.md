@@ -14,7 +14,7 @@ yarn add gsc-api -D  // 2. 命令行的方式
 1. 模块引用方式
 ```javascript
 const gscApiInit = require('gsc-api');
-const { oss, upload } = gscApiInit({ token: '这是token' }) // 引用需要的模块 or
+const { oss, upload } = gscApiInit({ token: '这是token', timeout: 10000 }) // 引用需要的模块 or
 const gscApi = gscApiInit({ token: '这是token' })
 
 const uploadShortUrl = await upload();  // 上传
@@ -23,7 +23,7 @@ const sign = await oss.getSign({ bucket, dir }); //获取Aliyun OSS签名
 ```
 2. 命令行方式
 ```bash
-gsc-api upload {要上传的文件在项目中的路径/绝对路径} --token {公孙测上登陆后的token}
+gsc-api upload {要上传的文件在项目中的路径/绝对路径} --token {公孙测上登陆后的token} [--name {指定上传到公孙测后显示的应用名}]
 ```
 
 ## 说明

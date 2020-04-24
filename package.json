@@ -1,6 +1,6 @@
 {
   "name": "gsc-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A node.js wrapper for the my.gsc.cn api to fetch data or upload packages",
   "main": "lib/init.js",
   "bin": "bin/gsc-api.js",
