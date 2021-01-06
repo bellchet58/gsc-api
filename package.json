@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/bellchet58/gsc-api#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "chalk": "^4.0.0",
     "commander": "^5.0.0",
     "form-data": "^3.0.0",
